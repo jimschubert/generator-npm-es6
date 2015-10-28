@@ -9,7 +9,8 @@ var fs = require('fs');
 describe('npm_es6:app', function () {
   before(function (done) {
     helpers.run(path.join(__dirname, '../generators/app'))
-      .withOptions({ skipInstall: true, includeDocs: true, includeExamples: false })
+      .withOptions({ skipInstall: true })
+      .withPrompts({ includeDocs: true, includeExamples: false })
       .on('end', done);
   });
 
