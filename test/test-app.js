@@ -38,7 +38,8 @@ describe('npm_es6:app', function () {
       'build/tasks/help.js',
       'build/tasks/default.js',
       'build/tasks/clean.js',
-      'build/tasks/build.js'
+      'build/tasks/build.js',
+      '.vscode/settings.json'
     ]);
   });
 });

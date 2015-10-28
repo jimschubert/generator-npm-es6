@@ -140,6 +140,7 @@ module.exports = yeoman.generators.Base.extend({
   writing: {
     createSourceFiles: function () {
       this.bulkDirectory('src', './src');
+      this.bulkDirectory('.vscode', './.vscode');
       
       if(this.lib.include.examples){
         this.mkdir('examples');
