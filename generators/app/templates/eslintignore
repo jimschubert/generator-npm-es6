@@ -1,0 +1,10 @@
+# node_modules ignored by default
+
+# Ignore files compiled from TypeScript and CoffeeScript
+**/*.{ts,coffee}.js
+
+# Ignore built files
+dist/
+
+# (except dist/index.js)
+#!dist/index.js

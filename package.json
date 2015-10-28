@@ -1,0 +1,32 @@
+{
+  "name": "generator-npm-es6",
+  "version": "0.0.0",
+  "description": "A yeoman generator to create a npm library written in ES6, but compiled and published in ES5.",
+  "license": "MIT",
+  "main": "app/index.js",
+  "repository": "jimschubert/generator-npm-es6",
+  "author": {
+    "name": "Jim Schubert",
+    "email": "james.schubert@gmail.com",
+    "url": "https://github.com/jimschubert"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "es6"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "lodash": "^3.10.1",
+    "yeoman-generator": "^0.19.0",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}

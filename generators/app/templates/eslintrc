@@ -1,0 +1,27 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "mocha": true,
+    "mongo": true,
+    "es6": true
+  },
+  "ecmaFeatures": {
+      "arrowFunctions": true,
+      "blockBindings": true,
+      "classes": true,
+      "destructuring": true,
+      "defaultParams": true,
+      "forOf": true,
+      "spread": true,
+      "templateStrings": true,
+      "jsx": false
+  },
+  "rules": {
+    "eqeqeq": 1,
+    "strict": 0,
+    "quotes": [1, "single"],
+    "comma-spacing": 0
+  }
+}
