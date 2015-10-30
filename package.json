@@ -1,6 +1,6 @@
 {
   "name": "generator-npm-es6",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A yeoman generator to create a npm library written in ES6, but compiled and published in ES5.",
   "license": "MIT",
   "main": "app/index.js",
