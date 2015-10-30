@@ -37,6 +37,7 @@ describe('npm_es6:app', function () {
       'build/tasks/prepare-release.js',
       'build/tasks/lint.js',
       'build/tasks/help.js',
+      'build/tasks/prepublish.js',
       'build/tasks/default.js',
       'build/tasks/clean.js',
       'build/tasks/build.js',

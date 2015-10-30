@@ -10,7 +10,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --compilers js:babel/register --recursive"
+    "test": "mocha --compilers js:babel/register --recursive",
+    "prepublish": "gulp prepublish"
   },
   "author": {
     "name": "<%= lib.author.name %>",

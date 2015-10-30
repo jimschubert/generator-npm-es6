@@ -21,7 +21,7 @@ gulp.task('changelog', function (callback) {
   var pkg = JSON.parse(fs.readFileSync('./package.json', 'utf-8'));
 
   return changelog({
-    repository: pkg.repository.url,
+    repository: (pkg.repository||{}).url,
     version: pkg.version,
     file: paths.root + 'CHANGELOG.md'
   }, function (err, log) {
@@ -34,6 +34,7 @@ gulp.task('changelog', function (callback) {
 gulp.task('prepare-release', function (callback) {
   return runSequence(
     'build',
+    'test',
     'bump-version',
     'changelog',
     callback
